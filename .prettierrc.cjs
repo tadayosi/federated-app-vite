@@ -1,3 +1,4 @@
+/** @type {import("prettier").Config} */
 const config = {
   printWidth: 120,
   semi: false,
@@ -9,4 +10,4 @@ const config = {
   arrowParens: 'avoid',
 }
 
-export default config
+module.exports = config
