@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   printWidth: 120,
   semi: false,
   singleQuote: true,
@@ -8,3 +8,5 @@ module.exports = {
   bracketSameLine: false,
   arrowParens: 'avoid',
 }
+
+export default config
